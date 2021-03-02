@@ -27,6 +27,20 @@ header {
     Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif;
 }
 
+.main-content {
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+
+.contact-icons {
+  margin-bottom: 50px;
+}
+
 .github-icon {
   border-radius: 100%;
 }
@@ -95,6 +109,7 @@ a {
   border: $colAccent2 solid;
   padding: 10px;
   opacity: 0.8;
+  border-radius: 5%;
   h4 {
     height: 2rem;
   }

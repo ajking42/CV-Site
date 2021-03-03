@@ -1,17 +1,20 @@
 body {
   margin: auto;
   text-align: center;
-  padding: 0;
+  padding: 0 0 30px 0;
   background-color: #070707;
   color: white;
-  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 hr {
-  border: 5px dotted;
+  border: 10px dotted;
+  border-left: 0;
+  border-right: 0;
   border-bottom: 0;
   max-width: 5%;
-  border-color: #cfbae1;
+  border-color: #064389;
+  margin: 100px auto;
 }
 
 header {
@@ -19,6 +22,9 @@ header {
   padding: 200px 0 200px 0;
   line-height: 2;
   font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif;
+}
+header h2 {
+  font-weight: lighter;
 }
 
 .main-content h3 {
@@ -31,8 +37,17 @@ header {
 .contact-icons {
   margin-bottom: 50px;
 }
+.contact-icons .icon-link {
+  width: 60px;
+  margin: auto 50px auto 50px;
+}
+.contact-icons .fa-file-pdf {
+  font-size: 60px;
+  margin: auto 50px auto 50px;
+}
 
 .github-icon {
+  background-color: white;
   border-radius: 100%;
 }
 
@@ -43,8 +58,13 @@ header {
 a {
   margin: auto 10px auto 10px;
 }
+a .fa-file-pdf {
+  color: #f40f02;
+  font-size: 40px;
+  opacity: 0.7;
+  vertical-align: top;
+}
 a .icon-link {
-  background-color: white;
   width: 40px;
   opacity: 0.7;
 }
@@ -60,6 +80,10 @@ a .icon-link:active {
 .welcome-div {
   line-height: 2;
   margin: auto;
+  max-width: 50em;
+}
+.welcome-div h3 {
+  margin-top: 0;
 }
 
 .skills-div {
@@ -75,9 +99,38 @@ a .icon-link:active {
 .skills-div .skill-div img {
   width: 50px;
 }
-.skills-div .skill-div .html-icon {
-  background-color: white;
-  border-radius: 100%;
+.skills-div .skill-div i {
+  font-size: 50px;
+}
+.skills-div .skill-div .fa-android {
+  color: #3ddc84;
+}
+.skills-div .skill-div .fa-bootstrap {
+  color: blue;
+}
+.skills-div .skill-div .fa-css3-alt {
+  color: #264de4;
+}
+.skills-div .skill-div .fa-code {
+  color: #064389;
+}
+.skills-div .skill-div .fa-js {
+  color: #f0db4f;
+}
+.skills-div .skill-div .fa-database {
+  color: #00758f;
+}
+.skills-div .skill-div .fa-dumbell {
+  color: grey;
+}
+.skills-div .skill-div .fa-landmark {
+  color: #FFFCF0;
+}
+.skills-div .skill-div .fa-book-open {
+  color: #F2DCB1;
+}
+.skills-div .skill-div .german-flag {
+  border: 1px white solid;
 }
 .skills-div .skill-div:hover {
   transform: scale(1.2);
@@ -85,40 +138,34 @@ a .icon-link:active {
 }
 
 .project-div {
-  color: black;
-  background-color: #cfbae1;
-  box-shadow: 5px 5px 10px black;
+  background-color: #064389;
   margin: 20px;
   display: inline-block;
   width: 20rem;
   vertical-align: top;
-  border: #c59fc9 solid;
-  padding: 10px;
+  border: 5px #064389 outset;
+  padding: 5px 10px;
   opacity: 0.8;
   border-radius: 5%;
 }
 .project-div h4 {
+  margin-top: 5px;
+  margin-bottom: 30px;
   height: 2rem;
+  font-size: 1.2rem;
 }
-.project-div a {
+.project-div .icon-link {
   float: right;
-}
-.project-div a img {
-  background-color: white;
-  border-radius: 100%;
-  width: 30px;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-}
-.project-div a img:hover {
-  transform: scale(1.1);
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-}
-.project-div a img:active {
-  transform: scale(1.2);
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  margin-right: 15px;
+  margin-bottom: 15px;
+  opacity: 1;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 .project-div .project-content {
-  height: 10rem;
+  height: 13rem;
+}
+.project-div .project-content p {
+  font-size: 1.1rem;
 }
 
 .project-div:hover {
@@ -129,6 +176,20 @@ a .icon-link:active {
 .contact-div {
   margin: 0px;
   background-color: #070707;
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 50px 0 50px 0;
+  }
+
+  .welcome-div {
+    padding: 10px;
+  }
+
+  hr {
+    max-width: 20%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

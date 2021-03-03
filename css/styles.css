@@ -41,9 +41,15 @@ header h2 {
   width: 60px;
   margin: auto 50px auto 50px;
 }
-.contact-icons .fa-file-pdf {
+.contact-icons .fa-file-alt {
   font-size: 60px;
   margin: auto 50px auto 50px;
+}
+.contact-icons .contact-icon {
+  display: inline-block;
+}
+.contact-icons .contact-icon p {
+  font-size: 1rem;
 }
 
 .github-icon {
@@ -58,8 +64,8 @@ header h2 {
 a {
   margin: auto 10px auto 10px;
 }
-a .fa-file-pdf {
-  color: #f40f02;
+a .fa-file-alt {
+  color: #fdf5e8;
   font-size: 40px;
   opacity: 0.7;
   vertical-align: top;
@@ -189,6 +195,11 @@ a .icon-link:active {
 
   hr {
     max-width: 20%;
+  }
+
+  .project-div {
+    margin-right: 1px;
+    margin-left: 1px;
   }
 }
 

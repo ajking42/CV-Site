@@ -2,7 +2,7 @@ body {
   margin: auto;
   text-align: center;
   padding: 0 0 30px 0;
-  background-color: #070707;
+  background-color: #0c0c0c;
   color: white;
   font-family: Verdana, Geneva, sans-serif;
 }
@@ -76,10 +76,12 @@ a .icon-link {
 }
 a .icon-link:hover {
   transform: scale(1.1);
+  transition: transform 0.15s;
   opacity: 1;
 }
 a .icon-link:active {
   transform: scale(1.2);
+  transition: transform 0.05s;
   opacity: 0.8;
 }
 
@@ -93,7 +95,7 @@ a .icon-link:active {
 }
 
 .skills-div {
-  background-color: #070707;
+  background-color: #0c0c0c;
   margin: 0;
 }
 .skills-div .skill-div {
@@ -130,16 +132,17 @@ a .icon-link:active {
   color: grey;
 }
 .skills-div .skill-div .fa-landmark {
-  color: #FFFCF0;
+  color: #fffcf0;
 }
 .skills-div .skill-div .fa-book-open {
-  color: #F2DCB1;
+  color: #f2dcb1;
 }
 .skills-div .skill-div .german-flag {
   border: 1px white solid;
 }
 .skills-div .skill-div:hover {
   transform: scale(1.2);
+  transition: transform 0.15s;
   opacity: 1;
 }
 
@@ -176,12 +179,13 @@ a .icon-link:active {
 
 .project-div:hover {
   transform: scale(1.1);
+  transition: transform 0.15s;
   opacity: 1.5;
 }
 
 .contact-div {
   margin: 0px;
-  background-color: #070707;
+  background-color: #0c0c0c;
 }
 
 @media (max-width: 480px) {

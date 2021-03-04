@@ -1,6 +1,6 @@
 $colAccent1: #064389;
 $colAccent2: #064389;
-$colMain: #070707;
+$colMain: #0c0c0c;
 
 body {
   margin: auto;
@@ -86,11 +86,14 @@ a {
 
   .icon-link:hover {
     transform: scale(1.1);
+    transition: transform 0.15s;
     opacity: 1;
   }
 
   .icon-link:active {
     transform: scale(1.2);
+    transition: transform 0.05s;
+
     opacity: 0.8;
   }
 }
@@ -146,11 +149,11 @@ a {
     }
 
     .fa-landmark {
-      color: #FFFCF0;
+      color: #fffcf0;
     }
 
     .fa-book-open {
-      color:  #F2DCB1;
+      color: #f2dcb1;
     }
 
     .german-flag {
@@ -160,6 +163,7 @@ a {
 
   .skill-div:hover {
     transform: scale(1.2);
+    transition: transform 0.15s;
     opacity: 1;
   }
 }
@@ -200,6 +204,7 @@ a {
 
 .project-div:hover {
   transform: scale(1.1);
+  transition: transform 0.15s;
   opacity: 1.5;
 }
 .contact-div {

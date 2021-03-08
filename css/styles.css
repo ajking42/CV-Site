@@ -206,5 +206,8 @@ a .icon-link:active {
     margin-left: 1px;
   }
 }
+.hide-skill {
+  display: none !important;
+}
 
 /*# sourceMappingURL=styles.css.map */
